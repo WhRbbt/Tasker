@@ -1,16 +1,21 @@
 package tasker;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
 public class Operations {
+
     private final Scanner scanner;
     private final TaskerRepository taskerRepository;
-    public Operations(Scanner scanner, TaskerRepository taskerRepository) {
-        this.taskerRepository = taskerRepository;
+    private final Gson gsonConverter;
+
+    public Operations(Scanner scanner, TaskerRepository taskerRepository, Gson gsonConverter) {
         this.scanner = scanner;
+        this.taskerRepository = taskerRepository;
+        this.gsonConverter = gsonConverter;
     }
 
     public void displayHelp() {
@@ -83,6 +88,19 @@ public class Operations {
                 System.out.println();
             }
         }
+    }
+
+    public void writeChangesToJson(List<Task> tasks) {
+        gsonConverter.writeDataToFile(tasks);
+        System.out.println("Changes written to JSON file");
+    }
+
+    public void readJsonFile() {
+        List<Task> tasks = gsonConverter.readDataFromFile();
+        System.out.println("Data read from JSON file");
+
+        taskerRepository.setAllTasks(tasks);
+        System.out.println("Tasks saved to repository");
     }
 }
 

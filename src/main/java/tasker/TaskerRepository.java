@@ -9,4 +9,6 @@ public interface TaskerRepository {
     void deleteTask(int taskId);
 
     List<Task> getAllTasks();
+
+    void setAllTasks(List<Task> tasks);
 }

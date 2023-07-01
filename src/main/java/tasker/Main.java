@@ -6,8 +6,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         TaskerRepository taskerRepository = new AppTaskerRepository();
-        Operations operations = new Operations(scanner, taskerRepository);
+        Gson gsonConverter = new Gson();
+        Operations operations = new Operations(scanner, taskerRepository, gsonConverter);
 
+        operations.readJsonFile();
         System.out.println("Tasker");
 
         while (true) {
@@ -20,6 +22,7 @@ public class Main {
                 case "show" -> operations.showAllTasks();
                 case "help" -> operations.displayHelp();
                 case "exit" -> {
+                    operations.writeChangesToJson(taskerRepository.getAllTasks());
                     System.out.println("Exit...");
                     scanner.close();
                     System.exit(0);

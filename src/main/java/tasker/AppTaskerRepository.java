@@ -29,4 +29,9 @@ public class AppTaskerRepository implements TaskerRepository {
     public List<Task> getAllTasks() {
         return tasks;
     }
+
+    @Override
+    public void setAllTasks(List<Task> tasks) {
+        this.tasks = tasks;
+    }
 }
