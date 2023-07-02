@@ -15,7 +15,7 @@ public class Main {
         Operations operations = new Operations(scanner, taskerRepository, gsonConverter);
 
         operations.readJsonFile();
-        System.out.println("Tasker");
+        System.out.println("Welcome to Tasker");
 
         while (true) {
             System.out.println("Enter a command (help - list of commands): ");
