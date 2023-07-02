@@ -1,4 +1,9 @@
-package tasker;
+package tasker.domain;
+
+import tasker.domain.data.Gson;
+import tasker.domain.data.SortType;
+import tasker.domain.data.Task;
+import tasker.domain.data.TaskStatus;
 
 import java.time.LocalDate;
 import java.util.Arrays;

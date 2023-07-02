@@ -1,4 +1,9 @@
-package tasker;
+package tasker.representation;
+
+import tasker.domain.AppTaskerRepository;
+import tasker.domain.data.Gson;
+import tasker.domain.Operations;
+import tasker.domain.TaskerRepository;
 
 import java.util.Scanner;
 

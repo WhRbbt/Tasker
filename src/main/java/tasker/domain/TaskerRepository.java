@@ -1,4 +1,7 @@
-package tasker;
+package tasker.domain;
+
+import tasker.domain.data.SortType;
+import tasker.domain.data.Task;
 
 import java.util.List;
 

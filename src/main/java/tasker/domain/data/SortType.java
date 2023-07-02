@@ -1,4 +1,4 @@
-package tasker;
+package tasker.domain.data;
 
 public enum SortType {
     NAME,

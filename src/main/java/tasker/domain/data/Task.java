@@ -1,4 +1,4 @@
-package tasker;
+package tasker.domain.data;
 
 import java.time.LocalDate;
 import java.util.List;

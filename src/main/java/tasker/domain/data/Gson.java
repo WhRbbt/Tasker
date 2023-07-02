@@ -1,4 +1,4 @@
-package tasker;
+package tasker.domain.data;
 
 import com.google.gson.*;
 

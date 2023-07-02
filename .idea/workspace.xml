@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c441d818-737f-4e78-b16d-ad3137f01ed7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasker/AppTaskerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasker/AppTaskerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasker/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasker/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasker/Operations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasker/TaskerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasker/TaskerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasker/AppTaskerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasker/domain/AppTaskerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasker/Gson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasker/domain/data/Gson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasker/representation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasker/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasker/domain/Operations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasker/SortType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasker/domain/data/SortType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasker/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasker/domain/data/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasker/TaskStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasker/domain/data/TaskStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasker/TaskerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasker/domain/TaskerRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,12 +60,12 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasker.Main" />
+    <configuration name="tasker.representation.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasker.representation.Main" />
       <module name="Tasker.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tasker.*" />
+          <option name="PATTERN" value="tasker.representation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,7 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.tasker.representation.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688238093492</updated>
       <workItem from="1688238104638" duration="7479000" />
-      <workItem from="1688300907205" duration="1655000" />
+      <workItem from="1688300907205" duration="1953000" />
     </task>
     <servers />
   </component>
