@@ -19,7 +19,10 @@ public class Main {
             switch (command.toLowerCase()) {
                 case "add" -> operations.addTask();
                 case "del" -> operations.deleteTask();
+                case "upd" -> operations.updateTask();
                 case "show" -> operations.showAllTasks();
+                case "search" -> operations.searchTasks();
+                case "sort" -> operations.sortTasks();
                 case "help" -> operations.displayHelp();
                 case "exit" -> {
                     operations.writeChangesToJson(taskerRepository.getAllTasks());

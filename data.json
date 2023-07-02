@@ -1,11 +1,101 @@
 [
   {
-    "name": "strhgtsr",
-    "description": "sredgsrde",
-    "deadline": "12-12-2023",
+    "name": "Finish Project Proposal",
+    "description": "Write and finalize the project proposal document",
+    "deadline": "05-07-2023",
+    "status": "IN_PROGRESS",
+    "tags": [
+      "project",
+      "documentation"
+    ]
+  },
+  {
+    "name": "Prepare Presentation Slides",
+    "description": "Create slides for the upcoming presentation",
+    "deadline": "06-07-2023",
     "status": "WAITING",
     "tags": [
-      "efsef"
+      "presentation",
+      "design"
+    ]
+  },
+  {
+    "name": "Review Code Changes",
+    "description": "Review and provide feedback on the latest code changes",
+    "deadline": "07-07-2023",
+    "status": "IN_PROGRESS",
+    "tags": [
+      "code",
+      "review"
+    ]
+  },
+  {
+    "name": "Schedule Team Meeting",
+    "description": "Arrange a team meeting to discuss project updates",
+    "deadline": "08-07-2023",
+    "status": "WAITING",
+    "tags": [
+      "meeting",
+      "communication"
+    ]
+  },
+  {
+    "name": "Test Application Performance",
+    "description": "Conduct performance testing on the application",
+    "deadline": "09-07-2023",
+    "status": "IN_PROGRESS",
+    "tags": [
+      "testing",
+      "performance"
+    ]
+  },
+  {
+    "name": "Create User Documentation",
+    "description": "Write user documentation for the software product",
+    "deadline": "10-07-2023",
+    "status": "WAITING",
+    "tags": [
+      "documentation",
+      "users"
+    ]
+  },
+  {
+    "name": "Fix Bug in Login Module",
+    "description": "Investigate and resolve the login module bug",
+    "deadline": "11-07-2023",
+    "status": "IN_PROGRESS",
+    "tags": [
+      "bug",
+      "development"
+    ]
+  },
+  {
+    "name": "Implement New Feature",
+    "description": "Develop and integrate the new feature into the system",
+    "deadline": "12-07-2023",
+    "status": "WAITING",
+    "tags": [
+      "feature",
+      "development"
+    ]
+  },
+  {
+    "name": "Perform Database Backup",
+    "description": "Backup the database to ensure data safety",
+    "deadline": "13-07-2023",
+    "status": "IN_PROGRESS",
+    "tags": [
+      "database",
+      "backup"
+    ]
+  },
+  {
+    "name": "Create Marketing Campaign",
+    "description": "Plan and execute a marketing campaign for the product launch",
+    "deadline": "14-07-2023",
+    "status": "WAITING",
+    "tags": [
+      "marketing"
     ]
   }
 ]
